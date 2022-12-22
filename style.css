@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#main{
+    max-width: 50vw;
+    
+}
+#first{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    line-height: 2em;
+    padding: 34px 80px;
+    background-color: white;
+}
+.head{
+    color: hsl(179, 62%, 43%);
+    margin: 24px 0px;
+}
+.head2{
+    color: hsl(71, 73%, 54%);
+}
+.para{
+    max-width: 35vw;
+    color: hsl(218, 22%, 67%);
+}
+#second{
+    display: flex;
+    justify-content: space-between;
+}
+#subscription{
+    border-bottom-left-radius: 14px;
+    background-color: rgb(43, 179, 177);
+    min-width: 370px;
+}
+.month-head{
+    padding: 24px 34px;
+    color: white;
+}
+.month-head2{
+    padding: 0px 34px;
+    color: white;
+    font-size: 32px;
+}
+.month-head2 span{
+    font-size: 14px;
+    color: rgb(193, 243, 242);
+}
+.month-para{
+    font-size: 16px;
+    padding: 0px 34px;
+    line-height: 3em;
+    color: rgb(255, 255, 255);
+}
+#btn{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 14px 120px;
+    margin: 24px 34px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 1px 4px 12px rgb(86, 102, 116);
+    cursor: pointer;
+    margin-bottom: 54px;
+}
+#why-us{
+    border-bottom-right-radius: 14px;
+    background-color: rgb(74, 190, 189);
+}
+.why-head{
+    color: white;
+    padding: 34px 34px;
+}
+.why-para{
+    color: hsl(204, 43%, 93%);
+    margin: 0px 34px;
+    padding-right: 144px;
+    font-size: 16px;
+    margin-bottom: 54px;
+    line-height: 1.5em;
+}
